@@ -128,7 +128,7 @@ h1:hover {
   }
 /*apply animation*/
 .plant {
-  animation: slide-in 1s ease-in;
+  animation: slide-in 3s ease-in;
 }
 
 /*
