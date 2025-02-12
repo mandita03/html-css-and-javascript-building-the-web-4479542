@@ -18,6 +18,7 @@ function pointerDrag(e) {
         pos2 = pos4 - e.clientY;
         pos3 = e.clientX;
         pos4 = e.clientY;
+
         terrariumElement.style.top = (terrariumElement.offsetTop - pos2) + 'px';
         terrariumElement.style.left = (terrariumElement.offsetLeft - pos1) + 'px';
     } 
@@ -26,10 +27,10 @@ function pointerDrag(e) {
         document.onpointerup = null;
         document.onpointermove = null;
     }
+  }
+    dragElement(document.getElementById('plant1'));
+    dragElement(document.getElementById('plant2'));
 
-}
-dragElement(document.getElementById('plant1'));
-dragElement(document.getElementById('plant2'));
 
 
 /*let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
