@@ -120,7 +120,7 @@ h1:hover {
 /*Define animation*/
 @keyframes slide-in{
   0%{
-    transform: translateX(-100);
+    transform: translateX(-100%);
   }
   100% {
     transform: translateX(0);
@@ -129,6 +129,14 @@ h1:hover {
 /*apply animation*/
 .plant {
   animation: slide-in 3s ease-in;
+}
+.plant {
+  transition: width 5s, height 5s, background-color 3s;
+}
+.plant:hover{
+  width: 200px;
+  height: 200px;
+  background-color: goldenrod;
 }
 
 /*
