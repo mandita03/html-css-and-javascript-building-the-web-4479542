@@ -118,16 +118,16 @@ h1:hover {
   left: 5%;
 }
 /*Define animation*/
- @keyframes slide-in{
+ /*@keyframes slide-in{
   0%{
     transform: translateX(-100%);
   }
   100% {
     transform: translateX(0);
   }
-  }
+  }*/
 /*apply animation*/
-.plant {
+/*.plant {
   animation: slide-in 1s ease-in;
 }
 .plant {
@@ -137,7 +137,7 @@ h1:hover {
   width: 200px;
   height: 200px;
   background-color: goldenrod;
-}
+}*/
 
 /*
 
