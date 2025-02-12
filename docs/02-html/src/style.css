@@ -128,10 +128,10 @@ h1:hover {
   }
 /*apply animation*/
 .plant {
-  animation: slide-in 3s ease-in;
+  animation: slide-in 1s ease-in;
 }
 .plant {
-  transition: width 5s, height 5s, background-color 3s;
+  transition: width 1s, height 1s, background-color 3s;
 }
 .plant:hover{
   width: 200px;
