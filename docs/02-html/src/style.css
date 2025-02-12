@@ -46,10 +46,10 @@ div {
   max-height: 150%;
   z-index: 2;
 }
-/*
+
 div img{
   width: 50px;
-}*/
+}
 h1:hover {
   color: hotpink;
 }
