@@ -118,7 +118,7 @@ h1:hover {
   left: 5%;
 }
 /*Define animation*/
-@keyframes slide-in{
+/* @keyframes slide-in{
   0%{
     transform: translateX(-100%);
   }
@@ -126,10 +126,10 @@ h1:hover {
     transform: translateX(0);
   }
   }
-/*apply animation*/
+/*apply animation
 .plant {
   animation: slide-in 3s ease-in;
-}
+}*/
 .plant {
   transition: width 5s, height 5s, background-color 3s;
 }
