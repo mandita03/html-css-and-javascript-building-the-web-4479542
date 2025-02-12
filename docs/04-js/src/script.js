@@ -1,12 +1,9 @@
 /*pos1 and pos2 store the change in cursor on the x and y axis */
 /*pos3 and pos4 store the current cursor position on the x and y axis */
-terrariumElement.onpointerdown = pointerDrag;
 function dragElement(terrariumElement) {
 //declaring viriables
 let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0; 
-
-
-
+terrariumElement.onpointerdown = pointerDrag;
 
 function pointerDrag(e) {
         e.preventDefault();
