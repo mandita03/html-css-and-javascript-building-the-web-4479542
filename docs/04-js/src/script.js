@@ -69,10 +69,10 @@ function dragElement(terrariumElement) {
         document.onpointerup = null;
         document.onpointermove = null;
     }
-}
+}*/
 
 document.querySelectorAll(".plant").forEach((plant) => {
   plant.onpointerdown = function(){
     dragElement(plant);
   };
-});*/
+});
